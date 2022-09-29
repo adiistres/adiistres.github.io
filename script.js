@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["YouTuber", "Developer", "Designer", "Freelancer"],
+        strings: ["programmer", "Create some chaos", "Yutuber", "Wibu"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Designer", "Freelancer"],
+        strings: ["programmer", "Create some chaos", "Yutuber", "Wibu"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -77,7 +77,7 @@ let body = document.querySelector('.message');
     let searchBtn = document.querySelector('.searchBtn');
     
     searchBtn.onclick = function(){
-        let url = 'mailto:dhamzz@dhamzxploit.my.id?subject='+subject.value;
+        let url = 'mailto:wibuyaabroo@gmail.com?subject='+subject.value;
         let url2 = '&body='+message.value;
         window.open(url+url2,'_self');
     }
